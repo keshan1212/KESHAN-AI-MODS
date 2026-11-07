@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#020617">
+
+  <title>KESHAN AI MODS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Lightning Background -->
+  <div class="lightning-bg"></div>
+  <div class="particles"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="logo">
+      <div class="logo-icon">⚡</div>
+      <div>
+        <h2>KESHAN AI <span>MODS</span></h2>
+        <small>YOUR SMART AI ASSISTANT</small>
+      </div>
+    </div>
+
+    <div class="online-status">
+      <span class="online-dot"></span>
+      ONLINE
+    </div>
+  </header>
+
+  <!-- Main App -->
+  <main class="app-container">
+
+    <!-- AI Profile -->
+    <section class="profile">
+      <div class="ai-avatar">
+        <div class="avatar-glow">🤖</div>
+      </div>
+
+      <h1>KESHAN AI</h1>
+      <p>Your Personal AI Assistant</p>
+
+      <div class="status-text">
+        <span class="online-dot"></span>
+        Ready to chat
+      </div>
+    </section>
+
+    <!-- Chat Area -->
+    <section class="chat-box" id="chatBox">
+
+      <div class="message ai-message">
+        <div class="message-avatar">🤖</div>
+        <div class="message-content">
+          <b>KESHAN AI</b>
+          <p>ආයුබෝවන්! මම KESHAN AI. අද ඔයාට මගෙන් මොනවද දැනගන්න ඕනේ? 💙</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Typing Animation -->
+    <div class="typing" id="typing" hidden>
+      KESHAN AI is thinking...
+    </div>
+
+    <!-- Voice Controls -->
+    <section class="voice-section">
+
+      <button id="voiceBtn" class="voice-button"
+              type="button" aria-label="Start voice input">
+        🎙️
+      </button>
+
+      <p>Tap microphone to speak</p>
+
+      <div class="voice-animation" id="voiceAnimation">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+    </section>
+
+    <!-- Message Input -->
+    <form class="input-area" id="chatForm">
+
+      <input
+        type="text"
+        id="userInput"
+        placeholder="Message KESHAN AI..."
+        autocomplete="off"
+        required
+      >
+
+      <button type="submit" id="sendBtn">
+        ➤
+      </button>
+
+    </form>
+
+    <!-- Voice Reply Toggle -->
+    <div class="settings">
+      <label>
+        <input type="checkbox" id="voiceReply" checked>
+        🔊 AI Voice Reply
+      </label>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>⚡ KESHAN AI MODS ⚡</p>
+    <small>Powered by Online AI Technology</small>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
